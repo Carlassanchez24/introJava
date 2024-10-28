@@ -11,6 +11,10 @@ public class Strings {
         System.out.println(nombre + "" + nombrea);
 
         String fullname = nombre + nombrea;
-        System.out.println(fullname);
+
+        // imprime por consola una comparación de dos Strings con .equal
+
+        if (nombre.equals("Car"))
+            System.out.println("El nombre es Car");
     }
 }
