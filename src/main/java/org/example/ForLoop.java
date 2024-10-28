@@ -8,9 +8,9 @@ public class ForLoop {
         }
         //imprimir por consola los numeros pares de 5 a 10
         for (int i = 5; i <= 10; i++) {
-            if (i % 2 == 0)
+            if (i % 2 == 0) {
                 System.out.println(i);
-
+            }
         }
     }
 }
