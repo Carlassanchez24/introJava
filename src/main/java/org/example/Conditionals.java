@@ -11,7 +11,7 @@ public class Conditionals {
 
         }
 
-        int edad = 9;
+        byte edad = 9;
         if (edad >= 18) {
             System.out.println("El usuario es mayor de edad");
         } else {
