@@ -10,12 +10,14 @@ public class Coche {
         this.marca = marca;
         this.modelo = modelo;
         this.año = año;
+        this.kilometraje = 0;
     }
-    public double conducir(double kilometraje) {
-        return this.kilometraje += kilometraje;
+    public void conducir(double km) {
+        kilometraje += km;
     }
-    public String mostrarInformacion() {
-        return marca + " " + modelo + " " + año + " " + kilometraje;
+    public void mostrarInformacion() {
+       // return marca + " " + modelo + " " + año + " " + kilometraje;
+        System.out.println( "marca: " + marca + ", " + "modelo: " + modelo + ", " + "anyo: " + año + ", " + "kilometraje: " + kilometraje );
 
     }
 }
