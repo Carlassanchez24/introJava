@@ -5,7 +5,7 @@ public class Main {
     Coche coche1 = new Coche("Seat", "Ibiza", 2024 );
 
         coche1.mostrarInformacion();
-        coche1.conducir(1000);
+        coche1.conducir(1060);
         coche1.mostrarInformacion();
     }
 }
