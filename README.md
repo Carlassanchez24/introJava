@@ -1,4 +1,4 @@
-# Herencia y polimorismo
+# Herencia y polimorfismo
 
 ## Descripción
 
